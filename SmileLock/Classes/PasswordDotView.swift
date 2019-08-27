@@ -21,7 +21,7 @@ open class PasswordDotView: UIView {
     }
     
     @IBInspectable
-    open var totalDotCount = 4 {
+    open var totalDotCount = 6 {
         didSet {
             setNeedsDisplay()
         }
